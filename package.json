@@ -1,0 +1,24 @@
+{
+  "name": "pagina-de-atletismo-con-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass --include-path scss scss/prueba.scss"
+     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegosilcor/Atletismo-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diegosilcor/Atletismo-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Diegosilcor/Atletismo-bootstrap#readme"
+}
