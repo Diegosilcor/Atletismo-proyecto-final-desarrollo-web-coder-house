@@ -1,1 +1,134 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("estructura");
+@import url("colores");
+@import url("tipografia");
+
+/*PRODUCTOS*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  .contenedor-productos {
+    -ms-grid-columns:repeat(1fr)(2)
+    grid-template-columns: repeat(2) (1fr)
+    -ms-grid-rows: repeat(1fr)(3)
+    grid-template-rows: repeat(3, 1fr)
+    margin: 20px
+  }
+
+  .imagen-productos {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: #1b1b1b;
+  }
+  .formulario-ropa {
+    border-radius: 10px;
+    border: solid 4px;
+    border-color: #080801;
+    width: 450px;
+    margin: auto;
+    background-color: rgba(235, 234, 232, 0.5);
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 20px;
+  }
+  .formulario-campo {
+    background-color: #cdcfd1;
+    border: solid 2px;
+    border-color: #474747;
+    border-radius: 10px;
+    font-size: 0, 5em;
+  }
+  .formulario-submit {
+    background-color: #88887f;
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 0, 5em;
+  }
+}
+
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  .contenedor-productos {
+    display: grid; 
+    -ms-grid-columns: repeat(1fr)(2)
+    grid-template-columns: repeat(2)(1fr)
+    -ms-grid-rows: repeat(1fr) (3)
+    grid-template-rows: repeat(3) (1fr)
+    margin: 20px
+  
+  }
+  .imagen-productos {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: #0e0e0d;
+  }
+  .formulario-ropa {
+    border-radius: 10px;
+    border: solid 4px;
+    border-color: #080801;
+    width: 250px;
+    margin: auto;
+    background-color: rgba(233, 232, 227, 0.5);
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 20px;
+  }
+  .formulario-campo {
+    background-color: #cdcfd1;
+    border: solid 2px;
+    border-color: #474747;
+    border-radius: 10px;
+    font-size: 0, 5em;
+  }
+  .formulario-submit {
+    background-color: #4c4d4a;
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 0, 5em;
+  }
+}
+
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  .contenedor-productos {
+    -ms-grid-columns:repeat(1fr)(1)
+    grid-template-columns:repeat(1)(1fr)
+    -ms-grid-rows:repeat(5)(1fr)
+    grid-template-rows:repeat(5)(1fr)
+    margin: 10px
+  }
+  .imagen-productos {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: #131312;
+  }
+  .formulario-ropa {
+    border-radius: 10px;
+    border: solid 4px;
+    border-color: #080801;
+    width: 250px;
+    margin: auto;
+    background-color: rgba(241, 241, 237, 0.5);
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 20px;
+  }
+  .formulario-campo {
+    background-color: #cdcfd1;
+    border: solid 2px;
+    border-color: #474747;
+    border-radius: 10px;
+    font-size: 0, 2em;
+  }
+  .formulario-submit {
+    background-color: #6d6d6a;
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 0, 2em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
