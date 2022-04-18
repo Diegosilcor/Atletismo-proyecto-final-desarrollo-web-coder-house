@@ -3,22 +3,37 @@
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 70, 5%;
+    @include html;
 }
 
 body {
-    height: 100px;
-    font-size: 20px;
-    margin: 0px;
-    font-family: "Open Sans", sans-serif;
-    font-family: "PT Sans", sans-serif;
-    font-family: "Smooch Sans", sans-serif;
-    justify-content: center;
-    background-color: rgb(153, 150, 150);
+    @include body;}
 
+/*H1, H2, H3, H4, H5*/
+h1 {
+    @extend %tipografia;
+        text-align: justify;
+        
+    }
 
+h2 {
+    @extend %tipografia;
+        
+    }
 
+h3 {
+    @extend %tipografia;
+        
+    }
+
+h4 {
+    @extend %tipografia;
+        
+    }
+h5 {
+    @extend %tipografia;
+
+}    
 /*FOOTER*/
 /*VISTA DESKTOP*/
 @media only screen and (max-width: 1440px) {
@@ -68,5 +83,4 @@ body {
         width: 100%;
         font-size: 0, 8em;
     }
-}
 }

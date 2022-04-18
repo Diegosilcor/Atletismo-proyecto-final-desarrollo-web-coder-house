@@ -1,0 +1,20 @@
+@mixin body {
+    height: 100px;
+    font-size: 20px;
+    margin: 0px;
+    font-family: "Open Sans",
+    sans-serif;
+    font-family: "PT Sans",
+    sans-serif;
+    font-family: "Smooch Sans",
+    sans-serif;
+    justify-content: center;
+    background-color: rgb(153, 150, 150);
+    
+}
+@mixin html {
+    box-sizing: border-box;
+    font-size: 70,
+    5%;
+    
+}
