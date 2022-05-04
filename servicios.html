@@ -32,7 +32,7 @@
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 
     <!--NAVEGADOR-->
-    <div class=".container-fluid bg-light">
+    <div class=".container-fluid bg-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Inicio</a>
@@ -63,29 +63,12 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Entrenamientos
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="servicios.html">Entrenamientos Running</a></li>
-                                <li>
-                                <li><a class="dropdown-item" href="servicios.html">Entrenamientos Pista</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="servicios.html">Entrenamientos Montaña</a></li>
-                            </ul>
-                        </li>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Entrenamientos running</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Contacto</a></li>
                         </ul>
                         </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-primary" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -93,46 +76,63 @@
     </div>
     </div>
     <!--NUESTROS SERVICIOS-->
-    <h3 class="text-white bg-dark">Nuestro Entrenamientos</h3>
-    <div class="container-fluid-justify-content-center">
-        <div class="row align-items-center">
-            <div class="col 1">
-                <img src="images/servicio 1.jpeg" alt="">
-                <h5 class="text-white bg-dark">Tecnicas de elongacion</h5>
-                <p>Existen variadas técnicas de elongación muscular entre ellas destacan: Elongación balística,
-                    Elongación pasiva asistida,
-                    Elongación activa y Elongación con Facilitación Neuromuscular Propioceptiva, cada una de ellas con
-                    distintas
-                    aplicaciones y efectos sobre el sistema neuromuscular. Los efectos de estas técnicas pueden
-                    clasificarse principalmente
-                    de acuerdo al perfil temporal en que se presentan.</p>
-            </div>
-            <div class="col 2">
-                <img src="images/servicio 2 fuerza.jpeg" alt="">
-                <h5 class="text-white bg-dark">Fuerza de piernas y brazos</h5>
-                <p>Los ejercicios de fuerza son aquellos en los que el cuerpo sostiene o vence una resistencia, ya sea
-                    de su propio peso o
-                    de una herramienta extra. Sus beneficios van desde fortalecer y aumentar la potencia de los músculos
-                    que se trabajan,
-                    hasta aumentar la densidad ósea y tonificar la figura con firmeza. Algunos ejemplos son las
-                    planchas, las zancadas, los
-                    burpees, las sentadillas y las lagartijas.
-                </p>
-            </div>
-            <div class="col 3">
-                <img src="images/servicio 3.jpeg" alt="">
-                <h5 class="text-white bg-dark"> Postura</h5>
-                <p>Si corres con una postura correcta podrás disfrutar de los beneficios de este liberador deporte:
-                    trabajarás los
-                    principales y mayores músculos del cuerpo como glúteos, cuádriceps, espalda y abdomen; liberarás
-                    endorfinas, por lo que
-                    te sentirás mucho más feliz; reducirás el estrés y relajarás la mente. Por el contrario, si corres
-                    con una postura no
-                    adecuada puedes llegar a lesionarte.
-                </p>
-            </div>
+    <section class="container-fluid">
+        <div class="row align-items-start">
+    <div class="card" style="width: 22rem;">
+        <img class="card-img-top" src="images/servicio 1.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="text-white bg-primary">Tecnicas de elongacion</h5>
+            <p class="card-text">Existen variadas técnicas de elongación muscular entre ellas destacan: Elongación balística,
+            Elongación pasiva asistida,
+            Elongación activa y Elongación con Facilitación Neuromuscular Propioceptiva, cada una de ellas con
+            distintas
+            aplicaciones y efectos sobre el sistema neuromuscular. Los efectos de estas técnicas pueden
+            clasificarse principalmente
+            de acuerdo al perfil temporal en que se presentan.</p>
+            <a href="#" class="btn btn-primary">+ Informacion</a>
         </div>
     </div>
+<div class="card" style="width: 22rem;">
+    <img class="card-img-top" src="images/servicio 2 fuerza.jpeg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="text-white bg-primary">Fuerza</h5>
+        <p class="card-text">Los ejercicios de fuerza son aquellos en los que el cuerpo sostiene o vence una resistencia, ya sea
+        de su propio peso o
+        de una herramienta extra. Sus beneficios van desde fortalecer y aumentar la potencia de los músculos
+        que se trabajan,
+        hasta aumentar la densidad ósea y tonificar la figura con firmeza. Algunos ejemplos son las
+        planchas, las zancadas, los
+        burpees, las sentadillas y las lagartijas.</p>
+        <a href="#" class="btn btn-primary">+ Informacion</a>
+    </div>
+</div>
+<div class="card" style="width: 22rem;">
+    <img class="card-img-top" src="images/servicio 3.jpeg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="text-white bg-primary">Postura</h5>
+        <p class="card-text">Si corres con una postura correcta podrás disfrutar de los beneficios de este liberador deporte:
+        trabajarás los
+        principales y mayores músculos del cuerpo como glúteos, cuádriceps, espalda y abdomen; liberarás
+        endorfinas, por lo que
+        te sentirás mucho más feliz; reducirás el estrés y relajarás la mente. Por el contrario, si corres
+        con una postura no
+        adecuada puedes llegar a lesionarte.</p>
+        <a href="#" class="btn btn-primary">+ Informacion</a>
+    </div>
+</div>
+<div class="card" style="width: 22rem;">
+    <img class="card-img-top" src="images/servicio 5.jpeg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="text-white bg-primary">Potencia</h5>
+        <p class="card-text">La noción de potencia muscular refiere a la fuerza que puede aplicar una persona con un movimiento y a la velocidad con
+        que dicha aplicación se concreta. Se trata, por lo tanto, de la capacidad de un individuo para ejercer fuerza de manera
+        rápida. Para el entrenamiento de la potencia se utilizan intensidades altas, pocas repeticiones, una moderada cantidad de series
+        y pausas moderadas a largas</p>
+        <a href="#" class="btn btn-primary">+ Informacion</a>
+    </div>
+</div>
+</section>
+
 
 
     <!--FOOTER-->
